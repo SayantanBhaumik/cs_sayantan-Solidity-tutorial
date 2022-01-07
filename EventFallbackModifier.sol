@@ -2,6 +2,7 @@ pragma solidity ^0.6.0;
 
 contract Mycontract{
 
+    //Events are used to inform external users that something happened on the blockchain
     event senderLogger(address);
     event valueLogger(uint256);
 
